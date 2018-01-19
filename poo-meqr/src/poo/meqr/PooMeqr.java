@@ -17,6 +17,19 @@ public class PooMeqr {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hola mundo");
+        
+
+        //Generar los obejtos de las 
+        //clases anteriores
+        Usuario x=new Usuario();
+        x.altura=1.58f;
+        x.peso=62;
+        Imc algo=new Imc();
+        algo.u=x;
+        
+        //calculamos el Imc a traves de su objeto
+        System.out.println(algo.calcular());
+        
+        
+    }   
     }
-    
-}
