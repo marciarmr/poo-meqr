@@ -23,7 +23,6 @@ public class Pregunta {
     public Pregunta() {
     }
 
-
     public String getTitulo() {
         return titulo;
     }
@@ -38,9 +37,6 @@ public class Pregunta {
 
     public void setOpciones(ArrayList<Opcion> opciones) {
         this.opciones = opciones;
-    }
-    
-    
-    
+    }   
     
 }
